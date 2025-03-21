@@ -1,0 +1,27 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=GoLand
+
+
+
+### GET The JWT Token To Call chain Data
+
+### GET The Chain data
+POST 127.0.0.1:3000/chain/trans
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6dHJ1ZSwiZXhwIjoxNzQyNTY3OTQwLCJuYW1lIjoiSm9obiBEb2UifQ.p6zSchukSYRKEzlNif2C-lOfoHl_bB_uXnMcoObZO7w
+
+{
+    "actionTaker":"6592dcfad9f6db7fc0633b2cdfbbd9221f66b2041b308930f492192b6ea8f7e9e69ce341f6b31ff1c55f31291e81296ec2990f193548e2bd4ce1fcdac5ee9cad",
+    "actionReceiver": "Bob",
+    "data": {"amount": 100, "currency": "USD"}
+
+}
+
+
+###
+GET 127.0.0.1:8001/chain
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6dHJ1ZSwiZXhwIjoxNzQyNTY3OTQwLCJuYW1lIjoiSm9obiBEb2UifQ.p6zSchukSYRKEzlNif2C-lOfoHl_bB_uXnMcoObZO7w
+###
+POST 127.0.0.1:3000/chain/wallet
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6dHJ1ZSwiZXhwIjoxNzQyNTY3OTQwLCJuYW1lIjoiSm9obiBEb2UifQ.p6zSchukSYRKEzlNif2C-lOfoHl_bB_uXnMcoObZO7w

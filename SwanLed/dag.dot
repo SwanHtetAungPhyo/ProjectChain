@@ -1,0 +1,40 @@
+digraph DAG {
+    rankdir=BT; // Draw the graph from bottom to top
+    node [shape=box, style=filled, color=lightblue];
+
+    // Nodes (Vertices)
+    "43887ab3-2e4d-4052-87ac-fb79765a7e3a" [label="Block 43887ab3\nTimestamp: 2025-03-19 20:47:03"];
+    "62b6230b-0f24-4c2a-8fea-5feb79df985e" [label="Block 62b6230b\nTimestamp: 2025-03-19 20:53:22"];
+    "8f851232-2a04-4e02-80fc-adc71387f6cf" [label="Block 8f851232\nTimestamp: 2025-03-19 20:53:11"];
+    "a8c86b6e-7a83-4eef-9fc9-beeec7ca6c52" [label="Block a8c86b6e\nTimestamp: 2025-03-19 20:53:15"];
+    "bc6692d8-0df1-46ac-a1ed-b0384eec6f41" [label="Block bc6692d8\nTimestamp: 2025-03-19 20:53:09"];
+    "cfe94fa3-9b2c-4680-8fff-d797a6ce0372" [label="Block cfe94fa3\nTimestamp: 2025-03-19 20:49:12"];
+    "dfee6b69-0f70-4f48-9118-c8d727912fd0" [label="Block dfee6b69\nTimestamp: 2025-03-19 20:53:16"];
+    "f0531b89-3228-450b-b696-f4011c439060" [label="Block f0531b89\nTimestamp: 2025-03-19 20:52:26"];
+
+    // Edges (Parent-Child Relationships)
+    "62b6230b-0f24-4c2a-8fea-5feb79df985e" -> "8f851232-2a04-4e02-80fc-adc71387f6cf";
+    "62b6230b-0f24-4c2a-8fea-5feb79df985e" -> "a8c86b6e-7a83-4eef-9fc9-beeec7ca6c52";
+    "62b6230b-0f24-4c2a-8fea-5feb79df985e" -> "dfee6b69-0f70-4f48-9118-c8d727912fd0";
+
+    "8f851232-2a04-4e02-80fc-adc71387f6cf" -> "cfe94fa3-9b2c-4680-8fff-d797a6ce0372";
+    "8f851232-2a04-4e02-80fc-adc71387f6cf" -> "f0531b89-3228-450b-b696-f4011c439060";
+    "8f851232-2a04-4e02-80fc-adc71387f6cf" -> "bc6692d8-0df1-46ac-a1ed-b0384eec6f41";
+
+    "a8c86b6e-7a83-4eef-9fc9-beeec7ca6c52" -> "43887ab3-2e4d-4052-87ac-fb79765a7e3a";
+    "a8c86b6e-7a83-4eef-9fc9-beeec7ca6c52" -> "cfe94fa3-9b2c-4680-8fff-d797a6ce0372";
+    "a8c86b6e-7a83-4eef-9fc9-beeec7ca6c52" -> "f0531b89-3228-450b-b696-f4011c439060";
+
+    "bc6692d8-0df1-46ac-a1ed-b0384eec6f41" -> "43887ab3-2e4d-4052-87ac-fb79765a7e3a";
+    "bc6692d8-0df1-46ac-a1ed-b0384eec6f41" -> "cfe94fa3-9b2c-4680-8fff-d797a6ce0372";
+    "bc6692d8-0df1-46ac-a1ed-b0384eec6f41" -> "f0531b89-3228-450b-b696-f4011c439060";
+
+    "cfe94fa3-9b2c-4680-8fff-d797a6ce0372" -> "43887ab3-2e4d-4052-87ac-fb79765a7e3a";
+
+    "dfee6b69-0f70-4f48-9118-c8d727912fd0" -> "f0531b89-3228-450b-b696-f4011c439060";
+    "dfee6b69-0f70-4f48-9118-c8d727912fd0" -> "bc6692d8-0df1-46ac-a1ed-b0384eec6f41";
+    "dfee6b69-0f70-4f48-9118-c8d727912fd0" -> "8f851232-2a04-4e02-80fc-adc71387f6cf";
+
+    "f0531b89-3228-450b-b696-f4011c439060" -> "43887ab3-2e4d-4052-87ac-fb79765a7e3a";
+    "f0531b89-3228-450b-b696-f4011c439060" -> "cfe94fa3-9b2c-4680-8fff-d797a6ce0372";
+}

@@ -1,0 +1,269 @@
+{
+		"vertices": {
+				"00ef4fa4-ebbe-4c16-b871-a59d2ee2b570": {
+						"id": "00ef4fa4-ebbe-4c16-b871-a59d2ee2b570",
+						"timestamp": "2025-03-20 19:16:48",
+						"hash": "237b2a11b9e53cc0503bb5f73d3b5c6296478ff30d8f7dc9f8a385e88095d5ad",
+						"parents": [
+								"c5b890cf-dd29-401f-8e80-16a8032fbc5c",
+								"9e71c056-df42-4045-b533-34436707d7eb",
+								"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf"
+						],
+						"transactions": [
+								{
+										"transactionId": "a6ea7e21-a990-4336-83b6-b516e7f24088",
+										"actionTaker": "50a6a97067f07abfe32961884dd31b1abfb536e438f145e1c0db37c1aa23b3e4ea9cc7218a4a9b0825be7e1cccb4d250e27280155a505372ce3f046476651214",
+										"actionReceiver": "50a6a97067f07abfe32961884dd31b1abfb536e438f145e1c0db37c1aa23b3e4ea9cc7218a4a9b0825be7e1cccb4d250e27280155a505372ce3f046476651214",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "840446ec69d8376f4cbb263a69551c9ba15e9221dfa8039022af9bf9f0dd1228035c2a9fc7ceb13f81868a2f6e1a9f29e2e2d65df93a2346cbfdff54e4550200"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				},
+				"079ca3b9-8e62-474b-8712-c496195893c8": {
+						"id": "079ca3b9-8e62-474b-8712-c496195893c8",
+						"timestamp": "2025-03-20 19:16:49",
+						"hash": "f6d9cb956b5ebce2f17aa16496a1e3a11a4570cc5842f6d378ca46df8f9fb689",
+						"parents": [
+								"abc2e5ce-9be9-48bd-a325-9608e5380a2e",
+								"d60bc3e5-039d-4987-a052-ef1390e9436d",
+								"6e169e98-b54f-4a52-a3c3-81ec8ba3dea1"
+						],
+						"transactions": [
+								{
+										"transactionId": "47b65872-8a8f-41ee-a707-01705c0be1db",
+										"actionTaker": "05d649d94b7204843f901531128d0099ba83580397fdd2bed7b5369e1940c9655908410d0dfea217741e92fe5fbe53e455a35de4f175c2241cccf16cf3c3c5f0",
+										"actionReceiver": "05d649d94b7204843f901531128d0099ba83580397fdd2bed7b5369e1940c9655908410d0dfea217741e92fe5fbe53e455a35de4f175c2241cccf16cf3c3c5f0",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "168f9dd337740900d7db4852300322e37461257670b3fd67caa256b4774ed6069fb1b29641f6353d418bb4ea5428e37802298f013762a9cfb892321509670306"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				},
+				"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf": {
+						"id": "3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf",
+						"timestamp": "2025-03-20 19:16:26",
+						"hash": "e62dea0752dfeb4558743ebaa7171127b39b991339760647c13962975ee1c57e",
+						"parents": [],
+						"transactions": [
+								{
+										"transactionId": "1004d8ab-0925-4a33-8434-f70cb5fa167c",
+										"actionTaker": "bb1080f59e59426fcb13b2aa04eb9423e0ccf63e9ae18b1bb4b81238323f983f36370f0f26ae08626bbfde3d9541043da660aba17fb90699b6dd9e9f0828dd9f",
+										"actionReceiver": "bb1080f59e59426fcb13b2aa04eb9423e0ccf63e9ae18b1bb4b81238323f983f36370f0f26ae08626bbfde3d9541043da660aba17fb90699b6dd9e9f0828dd9f",
+										"data": {
+												"address": "::",
+												"amount": "1000",
+												"type": "transfer"
+										},
+										"blockIndex": 0,
+										"signature": "45612ccfeec3d98ddd38f4b9268a793f5f41a4e8c25d51fb98d08a34267b73d297dda49ad8bb933f8a77250825d4b34b5cd9a126c18c0da8623d34c10bc0b5b7"
+								}
+						],
+						"validators": {
+								"validator_address": "::",
+								"validator_pub_key": "bb1080f59e59426fcb13b2aa04eb9423e0ccf63e9ae18b1bb4b81238323f983f36370f0f26ae08626bbfde3d9541043da660aba17fb90699b6dd9e9f0828dd9f",
+								"stake": 100
+						}
+				},
+				"3ee7f443-e008-48c1-ba5e-18954481e28f": {
+						"id": "3ee7f443-e008-48c1-ba5e-18954481e28f",
+						"timestamp": "2025-03-20 19:16:50",
+						"hash": "13658a06080786d744e2747e518475613cdd27d2175ec2c912aaa9ce35dce6c1",
+						"parents": [
+								"079ca3b9-8e62-474b-8712-c496195893c8",
+								"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf",
+								"abc2e5ce-9be9-48bd-a325-9608e5380a2e"
+						],
+						"transactions": [
+								{
+										"transactionId": "f35c4ccf-5380-49da-a2ce-75dd6249e01b",
+										"actionTaker": "0feac03e7880c35598da4ac33baa6e01795f9a36ab50376ff2d2f4874cb18e274b8017e6771ea4cb1d5dd5656889929dec35f70c1a5fc21cf8086dfe03963d90",
+										"actionReceiver": "0feac03e7880c35598da4ac33baa6e01795f9a36ab50376ff2d2f4874cb18e274b8017e6771ea4cb1d5dd5656889929dec35f70c1a5fc21cf8086dfe03963d90",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "1bc9a461587e83cc2ad500efcc555a9d5f5bbf30901c98cc08447b0fb1ceb1f5d6df577b0435af8231534ea55145096ddede2f4a21627e1e804b2b142fca1e43"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				},
+				"6e169e98-b54f-4a52-a3c3-81ec8ba3dea1": {
+						"id": "6e169e98-b54f-4a52-a3c3-81ec8ba3dea1",
+						"timestamp": "2025-03-20 19:16:44",
+						"hash": "776e791d16592e4d5a9ff6bf9ce4553d2706084207adc77a8758bc7dba052ad5",
+						"parents": [
+								"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf",
+								"abc2e5ce-9be9-48bd-a325-9608e5380a2e",
+								"d60bc3e5-039d-4987-a052-ef1390e9436d"
+						],
+						"transactions": [
+								{
+										"transactionId": "1042ad07-bae6-4c28-8dcf-63605523c13a",
+										"actionTaker": "d395d519a7d4e8a6ff097fa380ffc1b5c0dc4859cea9fb5603a8f3416b1452f2dd56f645f4059dcd8196d859d203d62305f0a891cdbdf79c3a73e2517eb86d4c",
+										"actionReceiver": "d395d519a7d4e8a6ff097fa380ffc1b5c0dc4859cea9fb5603a8f3416b1452f2dd56f645f4059dcd8196d859d203d62305f0a891cdbdf79c3a73e2517eb86d4c",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "63591222a3d916381df99d3b0659ef4a3f3afa4d9b00ce28904275120328f906f1c9c227ea76b96bbefe2651c0f3acdd43a44581c7a82194fef262ac94b1d0cf"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				},
+				"9e71c056-df42-4045-b533-34436707d7eb": {
+						"id": "9e71c056-df42-4045-b533-34436707d7eb",
+						"timestamp": "2025-03-20 19:16:46",
+						"hash": "845c4dccc83016313918bae456defd6a549d24784ffc865140bb4ddf9739443a",
+						"parents": [
+								"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf",
+								"abc2e5ce-9be9-48bd-a325-9608e5380a2e",
+								"d60bc3e5-039d-4987-a052-ef1390e9436d"
+						],
+						"transactions": [
+								{
+										"transactionId": "2ee2ff4c-c832-47da-bd6b-8c31e45b5fc0",
+										"actionTaker": "f8dedc55ff5cd7219b4ea25051517b6f89968ac8978c1510fff97ed1529e815e4c69eda544a203399206eaecce202b3c5cd41bd7f6bc74e6aea047909c6c04c7",
+										"actionReceiver": "f8dedc55ff5cd7219b4ea25051517b6f89968ac8978c1510fff97ed1529e815e4c69eda544a203399206eaecce202b3c5cd41bd7f6bc74e6aea047909c6c04c7",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "594dce2bb1d80bf0dd46c8c0c402be22ecdcda6d18cb6876026b6690b60425de7e0af58169bce104e7072b6f2a07e55bc8d286be9f324a3815badf2504f4224f"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				},
+				"abc2e5ce-9be9-48bd-a325-9608e5380a2e": {
+						"id": "abc2e5ce-9be9-48bd-a325-9608e5380a2e",
+						"timestamp": "2025-03-20 19:16:42",
+						"hash": "87e2eed4be67f663addd866dc0e903e14432621558f28766196b1e75beb7d03c",
+						"parents": [
+								"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf"
+						],
+						"transactions": [
+								{
+										"transactionId": "abb0100e-2af8-48d1-8d67-11800af2677f",
+										"actionTaker": "f83404fc4f87764edba87904ace97c7e0b2cfb9dc61af8fde5e9c6ce3e333cc49c33c33924a5418f3c263a83e713842260b3bbc52bb4ab9a12c99b42ee07e12f",
+										"actionReceiver": "f83404fc4f87764edba87904ace97c7e0b2cfb9dc61af8fde5e9c6ce3e333cc49c33c33924a5418f3c263a83e713842260b3bbc52bb4ab9a12c99b42ee07e12f",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "019fdae78ede3a390edbd30927dff2ccdb544858b17fe73715bab79c025c8dbb9e610a0ad83d18ca2f5ea50c51f2e042a524703d426425f264485b8d2ffa12d5"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				},
+				"c5b890cf-dd29-401f-8e80-16a8032fbc5c": {
+						"id": "c5b890cf-dd29-401f-8e80-16a8032fbc5c",
+						"timestamp": "2025-03-20 19:16:45",
+						"hash": "1f1d681b4dae79fa34775b2269e9b332d8be0bea4567b7934dc442f908e6fbad",
+						"parents": [
+								"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf",
+								"abc2e5ce-9be9-48bd-a325-9608e5380a2e",
+								"d60bc3e5-039d-4987-a052-ef1390e9436d"
+						],
+						"transactions": [
+								{
+										"transactionId": "e0871959-0071-4bba-b9f9-6c87755bdb13",
+										"actionTaker": "f91530be74d0ad44dc3272b8ea41e4728c6b691c60c44b47a2bb6ab96326ffaffa7e7ad69dc08d971e7fbeaafc0fe03fde3086aa165c50ecd5bd6719a0a3cc4e",
+										"actionReceiver": "f91530be74d0ad44dc3272b8ea41e4728c6b691c60c44b47a2bb6ab96326ffaffa7e7ad69dc08d971e7fbeaafc0fe03fde3086aa165c50ecd5bd6719a0a3cc4e",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "049f893f604814641b88144188281f03cb64f52a24cb77c849b99edfaa07de4995011a8af1fdfd2510135f53ceb84a6f692359ae544f9f1b9dfd0638334d1400"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				},
+				"d60bc3e5-039d-4987-a052-ef1390e9436d": {
+						"id": "d60bc3e5-039d-4987-a052-ef1390e9436d",
+						"timestamp": "2025-03-20 19:16:43",
+						"hash": "8f8701780fc4c64c31fd4bf63c5137cf22bb9d913077e7ec7b9c0bef34a2072e",
+						"parents": [
+								"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf",
+								"abc2e5ce-9be9-48bd-a325-9608e5380a2e"
+						],
+						"transactions": [
+								{
+										"transactionId": "09876bf6-484f-486c-8ade-24b222d94801",
+										"actionTaker": "c4fb849939099fd042167b1ee9f9f4c4beeccf477681f0915d850d22a8f242f7febbfd066db55a5e4ab8d7cdf577f182e24b3abd11a9302fda55dffaf0f267ed",
+										"actionReceiver": "c4fb849939099fd042167b1ee9f9f4c4beeccf477681f0915d850d22a8f242f7febbfd066db55a5e4ab8d7cdf577f182e24b3abd11a9302fda55dffaf0f267ed",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "ca34880a4bc16fd20c1ebad465f3229aaa408537d056fedd3322527bca2df2fd385275a24f2e4972039406fec3eefb444efa5087562b60d46c567f2dd468790b"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				},
+				"ee179e2b-cd62-4d3c-9308-80754578eb29": {
+						"id": "ee179e2b-cd62-4d3c-9308-80754578eb29",
+						"timestamp": "2025-03-20 19:16:45",
+						"hash": "92b32b44c1eec9495a213e383af2613ace026497b035f758b258004530a9cacb",
+						"parents": [
+								"d60bc3e5-039d-4987-a052-ef1390e9436d",
+								"6e169e98-b54f-4a52-a3c3-81ec8ba3dea1",
+								"3cb9cf1f-6b7b-4bb9-89d1-eb842d78b9bf"
+						],
+						"transactions": [
+								{
+										"transactionId": "f4a2817b-0c52-41dc-bd45-200ac96c81d7",
+										"actionTaker": "9ba34823f2bef1478295567075565eda2ebbde3ed0c85a8f5fc230cc33c58354402b77dd2e782254b3137bf029452f95979c72a86dff6fd37fc02a856a063c73",
+										"actionReceiver": "9ba34823f2bef1478295567075565eda2ebbde3ed0c85a8f5fc230cc33c58354402b77dd2e782254b3137bf029452f95979c72a86dff6fd37fc02a856a063c73",
+										"data": {
+												"message": "Hello World!"
+										},
+										"blockIndex": 0,
+										"signature": "777cb89dbe2079f62fa52227ad27fd771835704bba8bc4a6864c5ae3779a7b4ec0029e1a3934f0c9266418f9453e9ccdefaacce098bcfa63790ca328cfa3cabf"
+								}
+						],
+						"validators": {
+								"validator_address": "127.0.0.1",
+								"validator_pub_key": "127.0.0.1",
+								"stake": 1000
+						}
+				}
+		}
+}

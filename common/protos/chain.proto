@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option go_package = "github.com/SwanHtetAungPhyo/common/protos";
+package proto;
+
+message Transaction {
+  string transactionId = 1;
+  string actionTaker = 2;
+  string actionReceiver = 3;
+  string data = 4;
+  int64 blockIndex = 5;
+  string signature = 6;
+}
+
+message Validator {
+  string validatorAddress = 1;
+  string validatorPubKey = 2;
+  int64 stake = 3;
+}
+
+message Block {
+  string id = 1;
+  string timestamp = 2;
+  string hash = 3;
+  repeated string parents = 4;
+  repeated Transaction transactions = 5;
+  Validator validators = 6;
+}
+
+message DAG {
+  map<string, Block> vertices = 1;
+}

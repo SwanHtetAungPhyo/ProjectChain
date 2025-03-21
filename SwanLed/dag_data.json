@@ -1,0 +1,29 @@
+{
+		"vertices": {
+				"679e1e18-54bd-4d76-b63d-e71f7ef92c0e": {
+						"id": "679e1e18-54bd-4d76-b63d-e71f7ef92c0e",
+						"timestamp": "2025-03-21 01:08:51",
+						"hash": "75be42d5d4437e36ff7c2cf6c988704cb612edbf46214505da69f9c9945735ac",
+						"parents": [],
+						"transactions": [
+								{
+										"transactionId": "3f48c842-8532-4599-b3ac-3c3f00df89c9",
+										"actionTaker": "e0b42cff3e060b0b491862fff76448616f5291c4a5d330ed1573579c250c5d531301f19a26b667cc365b63ab3e9391730c67f049dee92ff9dada8b771f7e0730",
+										"actionReceiver": "e0b42cff3e060b0b491862fff76448616f5291c4a5d330ed1573579c250c5d531301f19a26b667cc365b63ab3e9391730c67f049dee92ff9dada8b771f7e0730",
+										"data": {
+												"address": "::",
+												"amount": "1000",
+												"type": "transfer"
+										},
+										"blockIndex": 0,
+										"signature": "2c55a8ffc857eaed4096cf66c8bb242f6ef6a826af83e061d7fedd327a4833e730203c3d27f89bd56b98794c5048d0e7787a49f9783e7d4fc4808ccaf12a4be4"
+								}
+						],
+						"validators": {
+								"validator_address": "::",
+								"validator_pub_key": "e0b42cff3e060b0b491862fff76448616f5291c4a5d330ed1573579c250c5d531301f19a26b667cc365b63ab3e9391730c67f049dee92ff9dada8b771f7e0730",
+								"stake": 100
+						}
+				}
+		}
+}

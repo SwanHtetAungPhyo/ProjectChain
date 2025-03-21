@@ -1,0 +1,57 @@
+definitions:
+  http.ApiResponse:
+    properties:
+      data: {}
+      error:
+        type: string
+      message:
+        type: string
+      success:
+        type: boolean
+    type: object
+info:
+  contact: {}
+paths:
+  /chain/trans:
+    post:
+      consumes:
+      - application/json
+      description: Verifies, signs, and sends a transaction to the mempool
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Transaction successfully executed
+          schema:
+            $ref: '#/definitions/http.ApiResponse'
+        "400":
+          description: Invalid request data
+          schema:
+            $ref: '#/definitions/http.ApiResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/http.ApiResponse'
+      summary: Execute a blockchain transaction
+      tags:
+      - Transaction
+  /chain/wallet:
+    post:
+      consumes:
+      - application/json
+      description: Creates a new wallet and stores the private key in a cookie
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Successfully created account
+          schema:
+            $ref: '#/definitions/http.ApiResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/http.ApiResponse'
+      summary: Create a new wallet account
+      tags:
+      - Account
+swagger: "2.0"

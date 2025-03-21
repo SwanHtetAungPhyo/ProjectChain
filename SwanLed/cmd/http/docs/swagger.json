@@ -1,0 +1,99 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Distributed BlockChain Storage using the DAG ",
+        "description": "This API represents the full node of the BlockChain Networks. To interact with BlockChain, ur application need to register. This Blockchain consist of 3 full nodes, 1 validator, 1 mempool tcp Server. The data of your application will be stored in both Off_Chain and ON_CHAIN. Off-CHAIN stores the binary of the state of the whole Block chain Snapshot ",
+        "version": "1.0.0",
+        "contact": {
+            "name": "Swan Htet Aung Phyo",
+            "email": "swanhtetaungp@gmail.com"
+        },
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "paths": {
+        "/chain/trans": {
+            "post": {
+                "description": "Verifies, signs, and sends a transaction to the mempool",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Transaction"
+                ],
+                "summary": "Execute a blockchain transaction",
+                "responses": {
+                    "200": {
+                        "description": "Transaction successfully executed",
+                        "schema": {
+                            "$ref": "#/definitions/http.ApiResponse"
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid request data",
+                        "schema": {
+                            "$ref": "#/definitions/http.ApiResponse"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "schema": {
+                            "$ref": "#/definitions/http.ApiResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "/chain/wallet": {
+            "post": {
+                "description": "Creates a new wallet and stores the private key in a cookie",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Account"
+                ],
+                "summary": "Create a new wallet account",
+                "responses": {
+                    "200": {
+                        "description": "Successfully created account",
+                        "schema": {
+                            "$ref": "#/definitions/http.ApiResponse"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "schema": {
+                            "$ref": "#/definitions/http.ApiResponse"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "http.ApiResponse": {
+            "type": "object",
+            "properties": {
+                "data": {},
+                "error": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            }
+        }
+    }
+}
